@@ -2447,6 +2447,14 @@ section {
     bottom: 15px;
   }
 
+  .header__burger.active::before {
+    top: calc(50% - 1.5px);
+  }
+
+  .header__burger.active::after {
+    bottom: calc(50% - 1.5px);
+  }
+
   .menu__link {
     font-size: 25px;
   }
