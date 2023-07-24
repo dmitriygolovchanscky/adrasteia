@@ -374,6 +374,10 @@ section {
 }
 
 .hero {
+  padding-top: 0px;
+}
+
+.hero .container {
   padding-top: 180px;
   background: url("../img/bg-image.svg") top right/auto 90% no-repeat;
 }
@@ -1317,7 +1321,7 @@ section {
     font-size: 20px;
   }
 
-  .hero {
+  .hero .container {
     padding-top: 150px;
   }
 
@@ -1381,8 +1385,8 @@ section {
 }
 
 @media (max-width: 1600px) {
-  .hero {
-    background: url("../img/bg-image.svg") top right/auto 70% no-repeat;
+  .hero .container {
+    background: url("../img/bg-image.svg") top right/auto 80% no-repeat;
   }
 
   .item-note__header {
@@ -1542,8 +1546,8 @@ section {
     font-size: 18px;
   }
 
-  .hero {
-    padding-top: 160px;
+  .hero .container {
+    background: url("../img/bg-image.svg") center right/auto 80% no-repeat;
   }
 
   .hero__title {
@@ -1788,8 +1792,7 @@ section {
     margin-right: 20px;
   }
 
-  .hero {
-    background: url("../img/bg-image.svg") top right/auto 60% no-repeat;
+  .hero .container {
     padding-top: 130px;
   }
 
@@ -2075,7 +2078,7 @@ section {
     letter-spacing: -0.5px;
   }
 
-  .hero {
+  .hero .container {
     background: #fff;
     padding-top: 100px;
   }
@@ -2313,8 +2316,7 @@ section {
     letter-spacing: 0px;
   }
 
-  .hero {
-    background: #fff;
+  .hero .container {
     padding-top: 80px;
   }
 
